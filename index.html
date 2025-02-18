@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title></title>
+        <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    </head>
+
+    <body>
+        <a-scene background="color:#FFF">
+            <a-assets>
+                <img id="mozvr" src="assets/mozvr.png">
+                <img id="ui1" src="assets/ui-1.png">
+                <img id="ui2" src="assets/ui-3.png">
+            </a-assets>
+
+            <a-curvedimage src="#ui1" radius="6" theta-length="120" height="7" rotation="0 -20 0" scale="0.8 0.8 0.8">
+            </a-curvedimage> 
+                      
+            <a-curvedimage src="#mozvr" radius="6" theta-length="17" height="0.36" rotation="0 220 0" position="0 2 2">
+            </a-curvedimage> 
+
+            <a-curvedimage src="#ui2" radius="6" theta-length="180" height="9" rotation="0 80 0" scale="1.2 1.2 1.2">
+            </a-curvedimage>
+
+                      
+        </a-scene>
+    </body>
+</html>
